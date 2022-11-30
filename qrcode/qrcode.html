@@ -1,0 +1,28 @@
+<HTML>
+
+<HEAD>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="qrcode.js"></script>
+</HEAD>
+
+<BODY>
+    <div style="border: 2px solid #000;width:500px">
+        <div id="qrcode"></div>
+    </div>
+</BODY>
+<script type="text/javascript">
+    var qrcode = new QRCode(document.getElementById("qrcode"), {
+        text: "https://github.com/Gugo-le",
+        width: 128,
+        height: 128,
+        colorDark: "#000000",
+        colorLight: "#ffffff",
+        correctLevel: QRCode.CorrectLevel.H
+    });
+
+    $("#qrcode > img").css({
+        "margin": "auto"
+    });
+</script>
+
+</HTML>
