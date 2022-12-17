@@ -36,7 +36,7 @@ function playRecording() {
     recordingPlayer.src = URL.createObjectURL(recordedBlob);
     recordingPlayer.play();
     downloadButton.href = recordingPlayer.src;
-    downloadButton.download = `preview.mp4`;
+    downloadButton.download = `2022.mp4`;
     console.log(recordingPlayer.src);
 }
 
