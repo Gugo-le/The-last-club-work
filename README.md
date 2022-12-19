@@ -4,3 +4,7 @@
 # screen record practice
 
  - 촬영 상황 녹화하며 mp4파일로 다운로드 할 수 있게끔 구현하기 위해서
+ 
+ # polaroid
+
+ - 폴라로이드 형식으로 디자인..\
